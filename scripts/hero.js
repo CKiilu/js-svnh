@@ -1,6 +1,6 @@
 var hero, bad_guy;
 
-function hero() {
+function heroic() {
     if (hero === "strong") {
         if (bad_guy === "weak") {
             console.log('Ah-ha, an easy victory!');
