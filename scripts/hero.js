@@ -1,8 +1,10 @@
 var hero, bad_guy;
 
-if (hero === "strong") {
-    if (bad_guy === "weak") {
-        console.log('Ah-ha, an easy victory!');
+function hero() {
+    if (hero === "strong") {
+        if (bad_guy === "weak") {
+            console.log('Ah-ha, an easy victory!');
+        }
+        console.log('Let us battle to the death!');
     }
-    console.log('Let us battle to the death!');
 }
