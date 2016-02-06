@@ -1,3 +1,4 @@
+//User input on web page
 var visitor_name = window.prompt("Kindly enter your name.");
 var welcome_message = "Hello" + visitor_name;
 document.querySelector('#greeting').textContent = welcome_message;
